@@ -58,7 +58,7 @@ else:
     env_args["tools"]=["default","installer"]
 env_args["variables"]=vars
 env_args["CPPPATH"]=[]
-env_args["LIBPATH"]=[]
+env_args["LIBPATH"]=["/usr/local/lib"]
 env_args["package_name"]="RHVoice"
 env_args["CPPDEFINES"]=[]
 env=Environment(**env_args)
